@@ -1,0 +1,27 @@
+<!--
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+include the below line -->
+<menu xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools">
+    <item android:id="@+id/bookmark_menu"
+        android:title="@string/bookmark"
+        app:showAsAction="always"/>
+    <!--app:showAsAction="always"/>-->
+
+        />
+    <item android:id="@+id/dois"
+        android:title="@string/segundo"
+        app:showAsAction="collapseActionView"/>
+
+        />
+    <item android:id="@+id/tres"
+        android:title="@string/terceiro"
+        app:showAsAction="withText"/>
+
+        />
+    <item android:id="@+id/quatro"
+        android:title="@string/quarto"
+        app:showAsAction="ifRoom"/>
+        />
+</menu>
